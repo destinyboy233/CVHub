@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/index.css">
+    <title>Students Form</title>
+</head>
+<body>
+    <form>
+        <center><h1>Students Registration Form</h1></center>
+        <img class="fool" src="../image/download.jpg" width="250px"><br /><br />
+     <label for="firstname">
+        <strong><span>Firstname:</span></strong> <input type="text" name="firstname" id="firstname" required>
+    </label> <br /><br />
+    <label for="lastname">
+        <strong><span>Lastname:</span></strong> <input type="text" name="lastname" id="lastname" required>
+    </label><br /><br />
+    <label for="email">
+        <strong><span>Email:</span></strong> <input type="email" name="email" id="email">
+    </label><br /><br />
+    <label for="gender">
+        <strong><span>Gender:</span></strong><br />
+        <input type="radio" name="gender" id="gender" value="Male"><span>Male</span><br />
+        <input type="radio" name="gender" id="gender" value="Female"><span>Female</span>
+    </label><br /><br />
+    <label for="DOB">
+       <strong><span>DOB:</span></strong> <input type="date" name="DOB" id="DOB">
+    </label><br /><br />
+    <label for="address">
+        <strong><span>Address:</span></strong> <input type="text" name="Address" id="address">
+    </label><br /><br />
+    <label for="Subjects">
+        <strong><span>Subjects:</span></strong> <br />
+        <input class="goat" type="checkbox" name="subjects" id="subjects" value="English" checked><span>English</span><br />
+        <input class="goat" type="checkbox" name="subjects" id="subjects" value="Biology" checked><span>Biology</span><br />
+        <input class="goat" type="checkbox" name="subjects" id="subjects" value="Chemistry"><span>Chemistry</span><br />
+        <input class="goat" type="checkbox" name="subjects" id="subjects" value="Physics"><span>Physics</span>
+    </label><br /><br />
+    <label for="State of origin"><strong><span>State Of origin:</span></strong>
+        <select name="state of origin" id="state of origin">
+            <option value="Imo"><span>Imo</span>
+            </option>
+            <option value="Anambra"><span>Anambra</span></option>
+            <option value="Ebonyi"><span>Ebonyi</span></option>
+            <option value="Enugu"><span>Enugu</span></option>
+            <option value="Abia"><span>Abia</span></option>
+        </select>
+    </label><br /><br />
+    <label for="passport">
+        <strong><span>Passport:</span></strong> <input type="file" name="Passport" id="passport">
+    </label><br /><br />
+   <label for="Description">
+       <strong><span>Description:</span></strong><br />
+       <textarea name="description" id="" cols="30" rows="10">
+    </textarea><br /><br />
+    <button class="fish">submit form</button>
+   </label>
+
+    </form>
+</body>
+</html>
